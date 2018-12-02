@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Halaman Header</title>
+	<link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css">
+	<!--link menghubungkan sytle.css
+	-->
+	<link rel="stylesheet" type="text/css" href="sytle.css">
+</head>
+<body>
+
+<div class="container">
+	<div id="header">
+		<h1>KOPMATIKA</h1>
+		<p>Koperasi Mahasiswa Teknik Informatika</p>
+	</div>
+</div>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      	<li class="nav-item ">
+      	  <a class="nav-link" href="#">Home </a>
+      	</li>
+     	 <li class="nav-item">
+        	<a class="nav-link" href="#">Propil</a>
+      </li>
+  		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Kopmatika</a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Input Anggota Kopmatika</a>
+          <a class="dropdown-item" href="#">Daftar Anggota Kopmatika</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ 
+</div>
+<div class="container">
+  <div id ="content" class="col-8"></div>
+  <div id ="sidebar" class="col-4"></div>
+</div>
+
+<!--js yang diguanakan jquery.js
+-->
+<script src="jquery.js"></script>
+
+<!-- js yangd igunakan di folder boostrap dibawah ini
+	 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

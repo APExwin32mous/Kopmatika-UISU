@@ -1,0 +1,38 @@
+#header{
+	width: 100%;
+	height: 100px;
+	background: #2ecc71;
+	text-align: center;
+
+}
+
+#header h1{
+	margin: 0;
+	 
+
+}
+#header p{
+	font-size: 12px;
+}
+
+.container.navbar navbar-light {
+	background: #e3f2fd;
+}
+
+.foster{
+	text-align: center;
+	padding:10px;
+	margin:0;
+	color:#000000;
+}
+
+#content{
+	height: 300px;
+	background: #bdc3c7;
+
+}
+#sidebar{
+	height: 300px;
+	background: #2c3e50;
+
+}
